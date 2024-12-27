@@ -164,7 +164,7 @@ def main():
     print(f"Character count: {len(tweet)}")
 
     # Post the tweet
-    # post_tweet(tweet, config)
+    post_tweet(tweet, config)
 
 
 if __name__ == "__main__":
