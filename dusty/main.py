@@ -117,7 +117,7 @@ def create_tweet(client):
     Keep your tweets engaging, informative, and reflective of Dusty's vibrant personality!
     """
 
-    user_content = "Write a fun, creative, or even slightly cheeky tweet about any aspect of the Dusty Bones project or Shadow Lands game. Feel free to highlight game mechanics, tokenomics, or community vibes—but keep it under 280 characters!"
+    user_content = "Write a fun, creative, or even slightly cheeky tweet about the Dusty Bones project or Shadow Lands game. Highlight game mechanics, tokenomics, or community vibes, and feel free to include jokes, pop culture references, or playful taunts—but keep it under 280 characters!"
 
     tweet = get_grok_response(client, system_content, user_content)
     return tweet
